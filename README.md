@@ -42,7 +42,7 @@ behat:
 ### With CLI
 
 ```bash
-docker run -d --rm -ti -p 8080:80 -v /home/michel.dhuyteza/www/thom/thom-platine:/var/www -e "SYMFONY_ENV=test" -e "SYMFONY_DEBUG=1" mroca/symfony-test
+docker run -d --rm -ti -p 8080:80 -v /my/local/project:/var/www -e "SYMFONY_ENV=test" -e "SYMFONY_DEBUG=1" mroca/symfony-test
 ```
 
 ### With docker-compose
