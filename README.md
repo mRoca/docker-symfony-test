@@ -67,7 +67,7 @@ app:
 
 ### php-cs-fixer-diff
 
-The `php-cs-fixer-diff-cache.sh` script check the project code style.
+The `php-cs-fixer-diff-cache.sh` script checks the project code style.
 
 Usage :
 
