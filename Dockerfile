@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     tar \
     wget \
     ca-certificates \
+    openssh-client \
  && apt-get autoremove -y && apt-get clean && rm -r /var/lib/apt/lists/*
 
 # Composer
